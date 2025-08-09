@@ -36,6 +36,6 @@ metadata:
 spec:
   serviceAccount: roboshop-mysql-sql-reader 
   containers:
-  - name: aws_cli
+  - name: awscli
     image: amazon/aws-cli
     command: ["sleep","10000"]
