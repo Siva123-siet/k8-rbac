@@ -34,7 +34,7 @@ metadata:
   labels:
     purpose: sa
 spec:
-  ServiceAccount: roboshop-mysql-sql-reader 
+  serviceAccount: roboshop-mysql-sql-reader 
   containers:
   - name: aws_cli
     image: amazon/aws-cli
